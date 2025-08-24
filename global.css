@@ -29,7 +29,7 @@ body {
 
     color: #b2e7cc;
 
-    background-image: linear-gradient(rgba(50, 0, 0, 0.9), rgba(0, 50, 0, 0.9), rgba(50, 50, 0, 0.9));
+    background-image: linear-gradient(rgba(50, 0, 0, 0.9), rgba(0, 0, 50, 0.9), rgba(0, 50, 50, 0.9));
     background-size: 200%;
     background-repeat: repeat-y;
 
