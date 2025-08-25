@@ -253,6 +253,12 @@ body {
 
 }
 
+.breakerDiv {
+
+    justify-self: center;
+
+}
+
 .breaker {
 
     min-height: 50px;
