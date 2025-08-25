@@ -270,6 +270,15 @@ body {
 
 }
 
+#bodySection2 {
+
+    display: flex;
+    flex-direction: row;
+
+    width: calc(100% - 4px);
+
+}
+
 .bodySectionText {
 
     margin: 2.5vh 2.5vw 2.5vh 2.5vw;
@@ -298,6 +307,15 @@ body {
 
     display: flex;
     flex-direction: column;
+
+    justify-self: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+
+    margin: 0 5% 0 5%;
     
 }
 
@@ -305,17 +323,22 @@ body {
 
     display: flex;
     flex-direction: column;
+
+    height: ;
     
 }
 
 .gospelImg {
 
-    min-width: 50px;
-    max-width: 12.5vw;
+    min-width: 100px;
+    max-width: 10vw;
+    height: 33.333%;
 
 }
 
 .gospel {
+
+    margin: 2% 0 2% 0;
 
     font-size: calc(10pt + 2.5vh);
     
