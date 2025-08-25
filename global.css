@@ -327,20 +327,9 @@ body {
     
 }
 
-.gospelImages {
+#gospelImg {
 
-    display: flex;
-    flex-direction: column;
-
-    height: ;
-    
-}
-
-.gospelImg {
-
-    min-width: 100px;
-    max-width: 10vw;
-    height: 33.333%;
+    max-height: 20vh;
 
 }
 
