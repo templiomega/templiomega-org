@@ -301,6 +301,13 @@ body {
     
 }
 
+.gospelImages {
+
+    display: flex;
+    flex-direction: row;
+    
+}
+
 .gospelImg {
 
     min-width: 50px;
