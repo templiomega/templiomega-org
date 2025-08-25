@@ -336,7 +336,8 @@ body {
 #gospelImg {
 
     min-height: 200px;
-    max-height: 20vw;
+    height: 20vh;
+    max-height: 20vh;
 
 }
 
