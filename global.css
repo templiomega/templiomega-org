@@ -294,6 +294,12 @@ body {
 
 }
 
+#gospels {
+
+    flex-direction: column;
+    
+}
+
 #footer {
 
     width: calc(100% - 4px);
