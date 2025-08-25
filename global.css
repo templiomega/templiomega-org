@@ -301,6 +301,12 @@ body {
     
 }
 
+.gospel {
+
+    font-size: calc(10pt + 2.5vh);
+    
+}
+
 #footer {
 
     width: calc(100% - 4px);
