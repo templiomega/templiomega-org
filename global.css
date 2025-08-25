@@ -301,6 +301,13 @@ body {
     
 }
 
+.gospelImg {
+
+    min-width: 50px;
+    max-width: 12.5vw;
+
+}
+
 .gospel {
 
     font-size: calc(10pt + 2.5vh);
