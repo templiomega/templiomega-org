@@ -359,7 +359,7 @@ body {
 
     font-size: calc(10pt + 1vw);
 
-    border: 2px solid white;
+    border: 0.5vw solid #c9c1ff;
     border-radius: 5px;
 
 }
