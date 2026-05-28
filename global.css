@@ -316,7 +316,7 @@ body {
 
 .bodySectionHeader {
 
-    margin-top: 2.5vh;
+    margin: 2.5vh 2.5vw 2.5vh 2.5vw;
 
     font-size: calc(16pt + 1vw);
     color: white;
