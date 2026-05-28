@@ -75,7 +75,7 @@ body {
 
     background-image: linear-gradient(rgba(50, 0, 0, 0.9), rgba(0, 0, 50, 0.9), rgba(0, 50, 50, 0.9));
 
-    font-size: calc(10pt + 2.5vw);
+    font-size: 2.5rem;
 
     border: 0.5vw solid #c9c1ff;
     border-radius: 5px;
@@ -152,7 +152,7 @@ body {
 
     margin: 0 20% 0 20%;
 
-    font-size: calc(20pt + 5vh);
+    font-size: 3.5rem;
 
     color: white;
 
@@ -185,11 +185,11 @@ body {
     margin: 2rem;
     padding: 2rem;
 
-    font-size: calc(10pt + 1vh);
+    font-size: 1.25rem;
 
     background-image: linear-gradient(rgba(50, 0, 0, 0.9), rgba(0, 0, 50, 0.9), rgba(0, 50, 50, 0.9));
 
-    border: 2px solid red;
+    box-shadow: 5px 5px rgba(255, 0, 0, 0.1);
     border-radius: 1rem;
 
 }
@@ -236,7 +236,8 @@ body {
 
 .banner {
 
-    border: 2px solid white;
+    box-shadow: 5px 5px rgba(255, 255, 255, 0.1);
+    border: 5px solid white;
     border-radius: 10px;
 
 }
@@ -318,7 +319,7 @@ body {
 
     margin: 2.5vh 2.5vw 2.5vh 2.5vw;
 
-    font-size: calc(16pt + 1vw);
+    font-size: 2.5rem;
     color: white;
     
 }
@@ -327,23 +328,14 @@ body {
 
     margin: 2.5vh 2.5vw 2.5vh 2.5vw;
 
-    font-size: calc(10pt + 1vw);
+    font-size: 2rem;
     
 }
 
 #welcomeText {
 
-    font-size: calc(10pt + 10vw);
+    font-size: 9rem;
     font-weight: bold;
-
-}
-
-#faqHeader {
-
-    margin: 5vh 2.5vw 2.5vh 2.5vw;
-    
-    font-size: calc(10pt + 5vw);
-    text-decoration: underline;
 
 }
 
@@ -366,8 +358,8 @@ body {
 
 #gospelImg {
 
-    max-width: 90%;
-    min-height: 200px;
+    max-width: 80%;
+    min-height: 300px;
     height: 20vh;
     max-height: 20vh;
 
@@ -379,16 +371,16 @@ body {
 
 .gospel {
 
-    width: 80%;
+    width: 40%;
 
     margin: 2% 0 2% 0;
 
-    padding: 5%;
+    padding: 2.5%;
 
     text-align: center;
     justify-content: center;
 
-    font-size: 1.5rem;
+    font-size: 2rem;
 
     background-image: url("11.png");
     
@@ -403,8 +395,6 @@ body {
     width: calc(90% - 1vw);
 
     margin: 10vh auto 5vh auto;
-
-    font-size: calc(10pt + 1vw);
 
     border: 0.5vw solid #c9c1ff;
     border-radius: 5px;
@@ -432,5 +422,49 @@ body {
     margin: 2.5vh 2.5vw 2.5vh 2.5vw;
 
     font-size: calc(10pt + 1vw);
+
+}
+
+@media (max-aspect-ratio: 1/1) {
+
+    #header {
+
+        font-size: 1.5rem;
+
+    }
+
+    #menu {
+
+        font-size: 3rem;
+        
+    }
+
+    .bodySectionHeader {
+
+        font-size: 1.75rem;
+
+    }
+
+    .bodySectionText {
+
+        font-size: 1.5rem;
+    
+    }
+
+    #welcomeText {
+
+        font-size: 4rem;
+
+    }
+
+    .gospel {
+
+        width: 80%;
+
+        padding: 5%;
+
+        font-size: 1.5rem;
+
+    }
 
 }
