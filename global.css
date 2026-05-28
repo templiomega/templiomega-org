@@ -236,7 +236,7 @@ body {
 
 .banner {
 
-    border: 2px solid #c9c1ff;
+    border: 2px solid white;
     border-radius: 10px;
 
 }
@@ -316,6 +316,8 @@ body {
 
 .bodySectionHeader {
 
+    margin-top: 2.5vh;
+
     font-size: calc(16pt + 1vw);
     color: white;
     
@@ -376,7 +378,7 @@ body {
 
 .gospel {
 
-    width: 90%;
+    width: 100%;
 
     margin: 2% 0 2% 0;
 
@@ -388,7 +390,7 @@ body {
     font-size: 2rem;
     
     box-shadow: 5px 5px rgba(255, 255, 255, 0.15);
-    border: 2px solid #c9c1ff;
+    border: 2px solid white;
     border-radius: 10px;
 
 }
