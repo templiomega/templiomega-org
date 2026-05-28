@@ -236,7 +236,7 @@ body {
 
 .banner {
 
-    border: 2px solid white;
+    border: 2px solid #c9c1ff;
     border-radius: 10px;
 
 }
@@ -388,7 +388,7 @@ body {
     font-size: 2rem;
     
     box-shadow: 5px 5px rgba(255, 255, 255, 0.15);
-    border: 2px solid white;
+    border: 2px solid #c9c1ff;
     border-radius: 10px;
 
 }
