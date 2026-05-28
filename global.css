@@ -390,7 +390,7 @@ body {
 
     width: calc(90% - 1vw);
 
-    margin: 10vh 0 5vh 0;
+    margin: 10vh auto 5vh auto;
 
     font-size: calc(10pt + 1vw);
 
