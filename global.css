@@ -77,6 +77,8 @@ body {
 
     font-size: 2.5rem;
 
+    box-shadow: 5px 5px rgba(255, 255, 255, 0.1);
+
     border: 0.5vw solid #c9c1ff;
     border-radius: 5px;
 
@@ -396,6 +398,7 @@ body {
 
     margin: 10vh auto 5vh auto;
 
+    box-shadow: 5px 5px rgba(255, 255, 255, 0.1);
     border: 0.5vw solid #c9c1ff;
     border-radius: 5px;
 
