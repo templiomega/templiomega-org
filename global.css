@@ -290,6 +290,8 @@ body {
     display: flex;
     flex-direction: column;
 
+    width: 90%;
+
     justify-self: center;
     justify-content: center;
     justify-items: center;
@@ -373,13 +375,19 @@ body {
 
     margin: 2% 0 2% 0;
 
-    font-size: calc(12pt + 1vh);
+    padding: 5%;
+
+    font-size: 2rem;
     
+    box-shadow: 5px 5px rgba(255, 255, 255, 0.15);
+    border: 2px solid white;
+    border-radius: 10px;
+
 }
 
 #footer {
 
-    width: calc(100% - 1vw);
+    width: calc(90% - 1vw);
 
     margin: 10vh 0 5vh 0;
 
