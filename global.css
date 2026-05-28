@@ -31,7 +31,6 @@ ul {
 body {
 
     margin: 0;
-    padding: 0;
 
     font-family:fantasy;
 
@@ -364,9 +363,12 @@ body {
 
 #gospelImg {
 
+    max-width: 90%;
     min-height: 200px;
     height: 20vh;
     max-height: 20vh;
+
+    margin: auto;
 
     border-radius: 5px;
 
@@ -374,9 +376,14 @@ body {
 
 .gospel {
 
+    width: 100%;
+
     margin: 2% 0 2% 0;
 
     padding: 5%;
+
+    text-align: center;
+    justify-content: center;
 
     font-size: 2rem;
     
